@@ -24,3 +24,26 @@ Here I have plotted WordCloud using wordcloud module.
 
 ![](https://github.com/parthshah28/Stocks_Sentiment_Analysis/blob/main/images/4.png)
 
+## Visualize Cleaned Dataset:
+#### The maximum number of words in any document is: 20
+
+![](https://github.com/parthshah28/Stocks_Sentiment_Analysis/blob/main/images/5.png)
+
+## Prepare The Data Using Tokenizing and Padding:
+Tokenizer allows us to vectorize text corrups. Tokenization works by turning each text into a sequence of integers.
+
+First split the data into test and train dataset. Training data has 5211 rows and 1 column. Testing data has 580 rows and 1 column.
+
+Now Create a tokenizer to tokenize the words and create sequences of tokenized words and then add padding to training and testing.
+
+Finally Convert the data to categorical 2D representation.
+
+## Custom Based Deep Neural Network To Perform Sentiment Analysis:
+
+![](https://github.com/parthshah28/Stocks_Sentiment_Analysis/blob/main/images/6.png)
+
+## Confusion Matrix:
+
+![](https://github.com/parthshah28/Stocks_Sentiment_Analysis/blob/main/images/7.png)
+
+####  To understand in more detail go to [Stocks_Sentiment_Analysis.ipynb](https://github.com/parthshah28/Stocks_Sentiment_Analysis/blob/main/Stocks_Sentiment_Analysis.ipynb)
